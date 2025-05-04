@@ -119,7 +119,7 @@ Inventory
 
 ---
 
-### Question 6  Cloud Concepts Correct
+### Question 6  Cloud Concepts
 
 Your company wants to save money by no longer running applications themselves or paying software developers for custom application code. Which cloud service category would you be looking at offerings for?
 
@@ -143,7 +143,7 @@ DaaS
 
 ---
 
-### Question 7  Security and Compliance Correct
+### Question 7  Security and Compliance
 
 Which of the following is not a technology used to protect data in transit?
 
@@ -278,7 +278,7 @@ Segments
 
 ---
 
-### Question 13  Security and Compliance Correct
+### Question 13  Security and Compliance
 
 Which technology is widely used to verify the integrity of data objects against a known original value for any potential alterations or corruptions?
 
@@ -348,7 +348,7 @@ AWS Shield
 
 ---
 
-### Question 16  Cloud Concepts Correct
+### Question 16  Cloud Concepts
 
 Which key concept of cloud computing enables a user to remove all systems, accounts, and data from a cloud environment and ensure they have been completely removed?
 
@@ -509,7 +509,7 @@ Application code
 
 ---
 
-### Question 23  Cloud Concepts Correct
+### Question 23  Cloud Concepts
 
 Which cloud service category has volume and object storage associated with it?
 
@@ -1037,6 +1037,8 @@ Classification
 Discovery
 
 Labeling
+
+Hashing
 
 #### Explanation
 
