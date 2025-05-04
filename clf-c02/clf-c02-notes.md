@@ -12,6 +12,7 @@ Rapid elasticity
 
 Metered service
 
+```
 #### Explanation
 
 "Virtualization" is correct. Virtualization allows a large pool of hardware, storage, or network resources to be allocated to systems and services that are hosted on it without needing those systems to add more hardware to meet new demands.
@@ -21,6 +22,8 @@ Metered service
 "Metered service" is incorrect. Metered service pertains to only paying for which resources you are using and only for the duration of time you are using them.
 
 "On-demand self-service" is incorrect. On-demand self-service refers to the ability of a user, with a credit card on file, to automatically provision and purchase services without having to involve anyone from AWS.
+```
+---
 
 ### Question 2  Security and Compliance
 
