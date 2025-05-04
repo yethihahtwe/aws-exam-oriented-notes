@@ -245,35 +245,36 @@ IAM accounts are free to use whatever password is desired by the account holder.
 ### Question 12  Billing and Pricing and Support
 
 What AWS mechanism is used to protect the overall availability of resources within AWS and to protect users from potentially runaway billing as well?
-Constraints
-Incorrect
-Quotas
-Correct
-Blocks
-Incorrect
-Segments
-Incorrect
 
-Explanation
+Constraints
+
+Quotas
+
+Blocks
+
+Segments
+
+
+#### Explanation
 
 "Quotas" is correct. In order to protect the availability for all users in AWS, service quotas (formerly called limits) are applied to each service. These quotas are specific to a region and will place a limit on the number of specific types of resources you can allocate by default.
 
 The other answers are incorrect. All are extraneous answers.
 
 
-Question 13  Security and Compliance Correct
+### Question 13  Security and Compliance Correct
 
 Which technology is widely used to verify the integrity of data objects against a known original value for any potential alterations or corruptions?
-Anonymizing
-Incorrect
-Tokenization
-Incorrect
-Obfuscation
-Incorrect
-Hashing
-Correct
 
-Explanation
+Anonymizing
+
+Tokenization
+
+Obfuscation
+
+Hashing
+
+#### Explanation
 
 "Hashing" is correct. Hashing involves taking data of arbitrary type, length, or size and using a function to map a value that is of a fixed size. Hashing can be applied to virtually any type of data object, including text strings, documents, images, binary data, and even virtual machine images. It can be used to very quickly verify the integrity of data objects.
 
@@ -283,21 +284,22 @@ Explanation
 
 "Anonymizing" is incorrect. Anonymizing is the process of removing personal data from data sets and replacing it with different values to protect user privacy.
 
-Question 14  Billing and Pricing and Support Incorrect
+### Question 14  Billing and Pricing and Support
 
 While reserved instances apply only to EC2, Savings Plans incorporates two additional AWS services. Select these two services.
-Elastic Beanstalk
-Incorrect
-Fargate
-Correct
-S3
-Incorrect
-Lambda
-Correct
-Lightsail
-Incorrect
 
-Explanation
+Elastic Beanstalk
+
+Fargate
+
+S3
+
+Lambda
+
+Lightsail
+
+
+#### Explanation
 
 "Fargate" and "Lambda" are correct. AWS Savings Plans incorporate Fargate and Lambda, in addition to EC2, and offer various discounts for committing to purchase compute power over a period of time.
 
@@ -307,37 +309,38 @@ Explanation
 
 "Elastic Beanstalk" is incorrect. Elastic Beanstalk is not included under Savings Plans.
 
-Question 15  Cloud Technology and Services Incorrect
+### Question 15  Cloud Technology and Services
 
 To provide optimal responsiveness for customers, AWS maintains a network of Edge locations throughout the world to provide ultra-low-latency access to data. Which AWS service is not available through Edge locations?
-CloudFront
-Incorrect
-Lightsail
-Correct
-Route 53
-Incorrect
-AWS Shield
-Incorrect
 
-Explanation
+CloudFront
+
+Lightsail
+
+Route 53
+
+AWS Shield
+
+
+#### Explanation
 
 "Lightsail" is correct. The AWS Lightsail service is deployed by region.
 
 The other answers are incorrect. The CloudFront, Route 53, and AWS Shield services are all global in nature and deployed across AWS Edge.
 
-Question 16  Cloud Concepts Correct
+### Question 16  Cloud Concepts Correct
 
 Which key concept of cloud computing enables a user to remove all systems, accounts, and data from a cloud environment and ensure they have been completely removed?
-Portability
-Incorrect
-Removability
-Incorrect
-Erasability
-Incorrect
-Reversibility
-Correct
 
-Explanation
+Portability
+
+Removability
+
+Erasability
+
+Reversibility
+
+#### Explanation
 
 "Reversibility" is correct. Reversibility is the ability of a cloud customer to take all their systems and data out of a cloud provider and have assurances from the cloud provider that all the data has been securely and completely removed within an agreed-upon timeline.
 
@@ -347,19 +350,20 @@ Explanation
 
 "Portability" is incorrect. Portability is the key feature that allows systems to easily and seamlessly move between different cloud providers.
 
-Question 17  Cloud Technology and Services Correct
+### Question 17  Cloud Technology and Services
 
 If you were located in Germany and wanted to run an EC2 instance within your own jurisdiction, which AWS region would allow you to accomplish that?
-af-south-1
-Incorrect
-us-west-1
-Incorrect
-ge-south-1
-Incorrect
-eu-central-1
-Correct
 
-Explanation
+af-south-1
+
+us-west-1
+
+ge-south-1
+
+eu-central-1
+
+
+#### Explanation
 
 "eu-central-1" is correct. The eu-central-1 region is located in Frankfort, Germany.
 
@@ -369,37 +373,38 @@ Explanation
 
 "ge-south-1" is incorrect. There is no AWS region that begins with “ge".
 
-Question 18  Cloud Concepts Correct
+### Question 18  Cloud Concepts
 
 When moving to a cloud environment, which facet of computing does an organization give up control over and responsibilities for?
-Security
-Incorrect
-Hardware
-Correct
-Operations
-Incorrect
-Data
-Incorrect
 
-Explanation
+Security
+
+Hardware
+
+Operations
+
+Data
+
+#### Explanation
 
 "Hardware" is correct. In a cloud infrastructure, the cloud company is fully responsible for the management and maintenance of the underlying hardware infrastructure.
 
 The other answers are incorrect. Operations, security, and data responsibilities are split between the cloud user and cloud provider, with the user having varying degrees of responsibility and involvement.
 
-Question 19  Security and Compliance Incorrect
+### Question 19  Security and Compliance
 
 Which cloud service model is most closely associated with DevOps?
-DaaS
-Incorrect
-PaaS
-Correct
-IaaS
-Incorrect
-SaaS
-Incorrect
 
-Explanation
+DaaS
+
+PaaS
+
+IaaS
+
+SaaS
+
+
+#### Explanation
 
 "PaaS" is correct. PaaS is most heavily used for DevOps, where developers can quickly obtain fully featured hosting environments and only need to deploy their code and any needed data to test and develop with and do not need to worry about any underlying operating system or middleware issues.
 
@@ -409,37 +414,39 @@ Explanation
 
 "DaaS" is incorrect. DaaS would not be used for DevOps, as it is a desktop platform and not for code deployment.
 
-Question 20  Cloud Concepts Correct
+### Question 20  Cloud Concepts
 
 If you wanted to maintain flexibility in data processing, where the majority of your processes could be performed in a cloud environment, with other data-intensive processes such as video editing being maintained in your own data center, which cloud model would you utilize?
-Hybrid
-Correct
-Community
-Incorrect
-Public
-Incorrect
-Private
-Incorrect
 
-Explanation
+Hybrid
+
+Community
+
+Public
+
+Private
+
+
+#### Explanation
 
 "Hybrid" is correct. A hybrid cloud model can span between cloud hosting and a traditional data center to allow for the best solutions for different types of activities.
 
 The other answers are incorrect. Each cloud model is designed to operate within one type of hosting rather than spanning different hosting types like hybrid does.
 
-Question 21  Billing and Pricing and Support Incorrect
+### Question 21  Billing and Pricing and Support
 
 With which AWS service would you expect to see service quotas regarding number of buckets, maximum object size, or number of restore requests?
-EC2
-Incorrect
-S3
-Incorrect
-S3 Glacier
-Correct
-EBS
-Incorrect
 
-Explanation
+EC2
+
+S3
+
+S3 Glacier
+
+EBS
+
+
+#### Explanation
 
 "S3 Glacier" is correct. Each of the mentioned quotas, number of buckets, maximum object size, and number of restore requests pertain to S3 Glacier.
 
@@ -449,19 +456,20 @@ Explanation
 
 "EBS" is incorrect. None of the three mentioned quotas apply to EBS.
 
-Question 22  Security and Compliance Incorrect
+### Question 22  Security and Compliance
 
 With EC2, which layer belongs to AWS under the Shared Responsibility model?
-Operating system
-Incorrect
-Data
-Incorrect
-Hardware
-Correct
-Application code
-Incorrect
 
-Explanation
+Operating system
+
+Data
+
+Hardware
+
+Application code
+
+
+#### Explanation
 
 "Hardware" is correct. Under the Shared Responsibility Model, AWS is always responsible for the underlying physical hardware.
 
@@ -471,19 +479,20 @@ Explanation
 
 "Data" is incorrect. The user is always responsible for data under all cloud models.
 
-Question 23  Cloud Concepts Correct
+### Question 23  Cloud Concepts Correct
 
 Which cloud service category has volume and object storage associated with it?
-SaaS
-Incorrect
-IaaS
-Correct
-PaaS
-Incorrect
-DaaS
-Incorrect
 
-Explanation
+SaaS
+
+IaaS
+
+PaaS
+
+DaaS
+
+
+#### Explanation
 
 "IaaS" is correct. IaaS is most closely associated with volume and object storage.
 
@@ -493,19 +502,20 @@ Explanation
 
 "DaaS" is incorrect. DaaS uses storage that is allocated by the cloud provider and access from within the virtual desktops.
 
-Question 24  Cloud Technology and Services Correct
+### Question 24  Cloud Technology and Services
 
 AWS offers a fully managed virtual desktop infrastructure (VDI) solution with both Windows and Linux options. Which AWS service is this?
-WorkSpaces
-Correct
-WorkLink
-Incorrect
-AppStream
-Incorrect
-AWS Desktop
-Incorrect
 
-Explanation
+WorkSpaces
+
+WorkLink
+
+AppStream
+
+AWS Desktop
+
+
+#### Explanation
 
 "WorkSpaces" is correct. Amazon WorkSpaces is a Desktop as a Service (DaaS) implementation that is built, maintained, configured, and secured through AWS as a managed service. WorkSpaces offers both Windows and Linux desktop solutions that can be quickly deployed anywhere throughout the AWS global infrastructure.
 
@@ -515,19 +525,20 @@ Explanation
 
 "AWS Desktop" is incorrect. AWS Desktop is a similar-sounding name, but not an actual AWS service.
 
-Question 25  Cloud Concepts Correct
+### Question 25  Cloud Concepts
 
 Which cloud concept refers to the assigning of jobs, tasks, roles, and responsibilities and ensuring they are satisfactorily performed?
-Interoperability
-Incorrect
-Maintenance
-Incorrect
-Governance
-Correct
-Auditability
-Incorrect
 
-Explanation
+Interoperability
+
+Maintenance
+
+Governance
+
+Auditability
+
+
+#### Explanation
 
 "Governance" is correct. Governance at its core involves assigning jobs, tasks, roles, and responsibilities and ensuring they are satisfactorily performed. Whether in a traditional data center or a cloud model, governance is mostly the same and undertaken by the same approach, with a bit of added complexity in a cloud environment due to data protection requirements and the role of the cloud provider.
 
@@ -537,19 +548,20 @@ Explanation
 
 "Interoperability" is incorrect. Interoperability is the ease with which one can move or reuse components of an application or service. The underlying platform, operating system, location, API structure, or cloud provider should not be an impediment to moving services easily and efficiently to an alternative solution.
 
-Question 26  Cloud Technology and Services Correct
+### Question 26  Cloud Technology and Services
 
 You suspect that one of your employees has been using your AWS services, including incurring billing charges, for personal use. Which AWS service would be the most useful to your investigation?
-AWS Budgets
-Incorrect
-AWS CloudTrail
-Correct
-Cost Explorer
-Incorrect
-AWS Shield
-Incorrect
 
-Explanation
+AWS Budgets
+
+AWS CloudTrail
+
+Cost Explorer
+
+AWS Shield
+
+
+#### Explanation
 
 "AWS CloudTrail" is correct. CloudTrail is the AWS service for performing auditing and compliance within your AWS account. CloudTrail pairs with CloudWatch to analyze all the logs and data collected from the services within your account, which can then be audited and monitored for all activities done by users and admins within your account.
 
@@ -559,19 +571,20 @@ Explanation
 
 "AWS Shield" is incorrect. AWS Shield provides security from DDoS attacks.
 
-Question 27  Billing and Pricing and Support Correct
+### Question 27  Billing and Pricing and Support
 
 Which of the following AWS services under the Free Tier would have limitations for both storage of data and the number of requests per month to access it?
-DynamoDB
-Correct
-Lambda
-Incorrect
-Server Migration Service
-Incorrect
-CloudWatch
-Incorrect
 
-Explanation
+DynamoDB
+
+Lambda
+
+Server Migration Service
+
+CloudWatch
+
+
+#### Explanation
 
 "DynamoDB" is correct. The DynamoDB service under the Free Tier is limited to 25GB of storage and up to 200 million read/write requests per month.
 
@@ -581,55 +594,57 @@ Explanation
 
 "Server Migration Service" is incorrect. The Server Migration Service allows for migrating an unlimited number of servers into AWS from either on-premises or Microsoft Azure cloud.
 
-Question 28  Cloud Technology and Services Incorrect
+### Question 28  Cloud Technology and Services
 
 Which of the following is a correct designation for an AWS Availability Zone?
-eu-south-1a
-Correct
-eu-south-1.az1
-Incorrect
-eu-south-1-a
-Incorrect
-eu-south-1az2
-Incorrect
 
-Explanation
+eu-south-1a
+
+eu-south-1.az1
+
+eu-south-1-a
+
+eu-south-1az2
+
+
+#### Explanation
 
 "eu-south-1a" is correct. To designate Availability Zones, AWS will append the letter for the Availability Zone on the end of the region identifier.
 
 The other answers are incorrect. Each incorrect answer does not properly append the Availability Zone letter to the region designation.
 
-Question 29  Cloud Technology and Services Correct
+### Question 29  Cloud Technology and Services
 
 Which of the following is a correct service endpoint for an EC2 instance within AWS?
 [ec2.aws.com](http://ec2.aws.com/)
-Incorrect
-[ec2.amazonaws.com](http://ec2.amazonaws.com/)
-Incorrect
-[ec2.eu-west-2.amazonaws.com](http://ec2.eu-west-2.amazonaws.com/)
-Correct
-[ec2.aws.amazon.com](http://ec2.aws.amazon.com/)
-Incorrect
 
-Explanation
+[ec2.amazonaws.com](http://ec2.amazonaws.com/)
+
+[ec2.eu-west-2.amazonaws.com](http://ec2.eu-west-2.amazonaws.com/)
+
+[ec2.aws.amazon.com](http://ec2.aws.amazon.com/)
+
+
+#### Explanation
 
 "[ec2.eu-west-2.amazonaws.com](http://ec2.eu-west-2.amazonaws.com/)" is correct. AWS endpoints follow the formula of AWS service designation + AWS region + [amazonaws.com](http://amazonaws.com/).
 
 The other answers are incorrect. The region is always included with an AWS service endpoint and each incorrect response omits the region.
 
-Question 30  Cloud Technology and Services Incorrect
+### Question 30  Cloud Technology and Services
 
 Which AWS service is utilized to consolidate monitoring and measure services for your entire account within AWS?
-AWS Shield
-Incorrect
-AWS CloudTrail
-Incorrect
-AWS CloudWatch
-Correct
-AWS WAF
-Incorrect
 
-Explanation
+AWS Shield
+
+AWS CloudTrail
+
+AWS CloudWatch
+
+AWS WAF
+
+
+#### Explanation
 
 "AWS CloudWatch" is correct. CloudWatch is the AWS service for monitoring and measuring services running within the AWS environment. It provides data and insights on application performance and how it may change over time and resource utilization and provides a centralized and consolidated view of the overall health of systems and services.
 
@@ -639,19 +654,20 @@ Explanation
 
 "AWS Shield" is incorrect. AWS Shield provides security from DDoS attacks.
 
-Question 31  Security and Compliance Correct
+### Question 31  Security and Compliance
 
 Which of the following is not an example of data at rest and the potential security implications of it?
-S3 objects
-Incorrect
-Machine images
-Incorrect
-DynamoDB tables
-Incorrect
-API calls
-Correct
 
-Explanation
+S3 objects
+
+Machine images
+
+DynamoDB tables
+
+API calls
+
+
+#### Explanation
 
 "API calls" is correct. API calls are actual transactions and represent data in transit versus data at rest.
 
@@ -661,19 +677,20 @@ Explanation
 
 "DynamoDB tables" is incorrect. DynamoDB tables are data written to storage and fall under data at rest.
 
-Question 32  Cloud Concepts Correct
+### Question 32  Cloud Concepts
 
 Which key cloud computing characteristic enables someone to create an account with AWS and get up and running quickly after providing a credit card number?
-Broad network access
-Incorrect
-Resource pooling
-Incorrect
-Multitenancy
-Incorrect
-On-demand self-service
-Correct
 
-Explanation
+Broad network access
+
+Resource pooling
+
+Multitenancy
+
+On-demand self-service
+
+
+#### Explanation
 
 "On-demand self-service" is correct. On-demand self-service allows a user to create an account, provide a credit card number, and immediately begin provisioning services within an AWS. The user does not need to go through a contract process with AWS or engage with any AWS personnel to get started.
 
@@ -683,19 +700,20 @@ Explanation
 
 "Multitenancy" is incorrect. Multitenancy refers to multiple different companies or users sharing the same overall cloud environment and resources.
 
-Question 33  Security and Compliance Correct
+### Question 33  Security and Compliance
 
 Which AWS support resource is an extensive set of FAQ pages that cover all AWS services and can be a useful resource for learning about AWS services and implementation ideas?
-Discussion forums
-Incorrect
-Documentation
-Incorrect
-Knowledge Center
-Correct
-AWS Cloud Adoption Framework
-Incorrect
 
-Explanation
+Discussion forums
+
+Documentation
+
+Knowledge Center
+
+AWS Cloud Adoption Framework
+
+
+#### Explanation
 
 "Knowledge Center" is correct. The structure of the Knowledge Center is that of a typical FAQ page, organized by AWS services. Unlike your typical FAQ, however, the Knowledge Center has an enormous number of pages that are framed in a question-and-answer format. It is designed to work alongside and complement other AWS resources, such as documentation, discussion forums, and the AWS Support Center.
 
@@ -705,19 +723,20 @@ Explanation
 
 "AWS Cloud Adoption Framework" is incorrect. The AWS Cloud Adoption Framework is maintained by AWS Professional Services and is focused on helping organizations have a successful cloud adoption.
 
-Question 34  Security and Compliance Correct
+### Question 34  Security and Compliance
 
 For optimal security, when should a root user account be used within AWS?
-To use tools on the Billing Dashboard
-Incorrect
-To create initial admin accounts from the IAM console
-Correct
-To approve S3 bucket creations
-Incorrect
-To provision new services
-Incorrect
 
-Explanation
+To use tools on the Billing Dashboard
+
+To create initial admin accounts from the IAM console
+
+To approve S3 bucket creations
+
+To provision new services
+
+
+#### Explanation
 
 "To create initial admin accounts from the IAM console" is correct. The root account should be used to create other accounts for administrators to use and then should be highly protected and minimally used ongoing.
 
@@ -727,19 +746,20 @@ Explanation
 
 "To approve S3 bucket creations" is incorrect. IAM accounts with the appropriate roles and permissions assigned to them should be used for the creation of S3 buckets; the root account is not necessary.
 
-Question 35  Cloud Technology and Services Incorrect
+### Question 35  Cloud Technology and Services
 
 Which CIDR block sizing will allow for the largest number of IP addresses within a subnet?
-/28
-Incorrect
-/16
-Correct
-/24
-Incorrect
-/32
-Incorrect
 
-Explanation
+/28
+
+/16
+
+/24
+
+/32
+
+
+#### Explanation
 
 "/16" is correct. CIDR blocks with smaller numbers have the largest number of IP addresses available for them. The allowed ranges in AWS are from /16 to /28.
 
@@ -749,21 +769,22 @@ Explanation
 
 "/32" is incorrect. /32 is outside the allowed range of /16 to /28 in AWS.
 
-Question 36  Billing and Pricing and Support Correct
+### Question 36  Billing and Pricing and Support
 
 Select two types of reserved instances offered by AWS for EC2 services.
-Hybrid
-Incorrect
-Standard
-Correct
-Flexible
-Incorrect
-Convertible
-Correct
-Dynamic
-Incorrect
 
-Explanation
+Hybrid
+
+Standard
+
+Flexible
+
+Convertible
+
+Dynamic
+
+
+#### Explanation
 
 "Standard" and "Convertible" are correct. AWS offers reserved instances for EC2 for both standard (up to 72 percent savings) and convertible (up to 54 percent savings).
 
@@ -773,37 +794,39 @@ Explanation
 
 "Dynamic" is incorrect. Dynamic is not a type of reserved instance.
 
-Question 37  Cloud Technology and Services Incorrect
+### Question 37  Cloud Technology and Services
 
 Which AWS tool will allow you to initiate processes as a result of events that are detected within CloudWatch and take action based on the value of the event?
-Events
-Incorrect
-Triggers
-Incorrect
-Alerts
-Incorrect
-Alarms
-Correct
 
-Explanation
+Events
+
+Triggers
+
+Alerts
+
+Alarms
+
+
+#### Explanation
 
 "Alarms" is correct. Alarms are based on predefined thresholds or through the use of machine learning algorithms and can trigger automated processes as a result. A prime example of the use of alarms is for auto-scaling based upon load or other thresholds, both with increasing and decreasing of allocated resources. Alarms can also be used to trigger workflows across the different AWS services, since they are done from a consolidated standpoint and are not siloed within a particular service.
 
 The other answers are incorrect. Triggers, alerts, and events are not means to initiate processes as a result of specific events identified by CloudWatch.
 
-Question 38  Security and Compliance Correct
+### Question 38  Security and Compliance
 
 Which standard is widely used for SSO federations and implementations?
-SQL
-Incorrect
-XML
-Incorrect
-SAML
-Correct
-JSON
-Incorrect
 
-Explanation
+SQL
+
+XML
+
+SAML
+
+JSON
+
+
+#### Explanation
 
 "SAML" is correct. The Security Assertion Markup Language (SAML) was developed for the use of passing secure data for SSO transactions between the service provider and identity provider and is widely used throughout the industry.
 
@@ -813,19 +836,20 @@ Explanation
 
 "SQL" is incorrect. SQL is a query language for use with structured databases.
 
-Question 39  Security and Compliance Correct
+### Question 39  Security and Compliance
 
 As a government employee, you need to provide proof that any cloud systems you are using meet FedRAMP requirements. Where in the AWS Management Console would you look to find FedRAMP certifications?
-AWS CloudTrail
-Incorrect
-AWS Systems Manager
-Incorrect
-AWS OpsWorks
-Incorrect
-AWS Artifact
-Correct
 
-Explanation
+AWS CloudTrail
+
+AWS Systems Manager
+
+AWS OpsWorks
+
+AWS Artifact
+
+
+#### Explanation
 
 "AWS Artifact" is correct. AWS Artifact provides certification reports and audits by various governing bodies. This includes prominent certifications such as PCI DSS for financial/credit card transactions and FedRAMP for U.S. federal government systems. AWS also makes the pertinent SOC audit reports available to customers.
 
@@ -835,39 +859,41 @@ Explanation
 
 "AWS OpsWorks" is incorrect. AWS OpsWorks is used for Chef and Puppet implementations within AWS.
 
-Question 40  Cloud Technology and Services Correct
+### Question 40  Cloud Technology and Services
 
 Which AWS region is limited to specific customers and is not available for selection in general?
-ca-central-1
-Incorrect
-us-gov-west-1
-Correct
-me-south-1
-Incorrect
-sa-east-1
-Incorrect
 
-Explanation
+ca-central-1
+
+us-gov-west-1
+
+me-south-1
+
+sa-east-1
+
+
+#### Explanation
 
 "us-gov-west-1" is correct. The us-gov-west-1 region is restricted to U.S. government accounts.
 
 The other answers are incorrect. The Middle East, South America, and Canadian regions are all available for use by all AWS customers.
 
-Question 41  Cloud Technology and Services Incorrect
+### Question 41  Cloud Technology and Services
 
 Select two managed instances that are offered as part of AWS OpsWorks.
-Puppet Enterprise
-Correct
-Rsync
-Incorrect
-Chef Automate
-Correct
-FlashCopy
-Incorrect
-Git
-Incorrect
 
-Explanation
+Puppet Enterprise
+
+Rsync
+
+Chef Automate
+
+FlashCopy
+
+Git
+
+
+#### Explanation
 
 "Chef Automate" and "Puppet Enterprise" are correct. AWS OpsWorks provides managed instances of Puppet and Chef.
 
@@ -877,19 +903,20 @@ Explanation
 
 "FlashCopy" is incorrect. FlashCopy is not offered as part of AWS services.
 
-Question 42  Billing and Pricing and Support Incorrect
+### Question 42  Billing and Pricing and Support
 
 As part of the AWS Free Tier, which service offers a user a free one-month trial of either a Linux or Windows platform?
-Lightsail
-Correct
-AppStream
-Incorrect
-Inspector
-Incorrect
-GuardDuty
-Incorrect
 
-Explanation
+Lightsail
+
+AppStream
+
+Inspector
+
+GuardDuty
+
+
+#### Explanation
 
 "Lightsail" is correct. Lightsail offers a free month trial of what would normally cost $3.50 USD for the Linux/Unix Lightsail platform or the $8 USD Microsoft Windows Lightsail platform.
 
@@ -899,19 +926,20 @@ Explanation
 
 "Inspector" is incorrect. Inspector offers a free trial for 90 days or 250 assessments, but is not a compute service.
 
-Question 43  Security and Compliance Incorrect
+### Question 43  Security and Compliance
 
 Which component of the AWS Trusted Advisor would you use to look for any flagged resources that are not optimally configured to minimize service interruptions?
-Service Limits
-Incorrect
-Security
-Incorrect
-Performance
-Incorrect
-Fault Tolerance
-Correct
 
-Explanation
+Service Limits
+
+Security
+
+Performance
+
+Fault Tolerance
+
+
+#### Explanation
 
 "Fault Tolerance" is correct. Fault Tolerance flags any resources that are allocated but are configured in a way that makes them vulnerable to service interruptions, such as single points of failure with non-replicated systems, or any systems that are not being backed up.
 
@@ -921,19 +949,20 @@ Explanation
 
 "Performance" is incorrect. Performance flags any configurations that are implemented in a way that might be preventing resources from reaching their full potential and limiting performance.
 
-Question 44  Cloud Concepts Incorrect
+### Question 44  Cloud Concepts
 
 Your company wants to provide easy and quick access to its developers to try applications and codes across multiple frameworks to determine what gets the best performance and scalability. Which cloud service category would you be looking to utilize?
-DaaS
-Incorrect
-IaaS
-Incorrect
-SaaS
-Incorrect
-PaaS
-Correct
 
-Explanation
+DaaS
+
+IaaS
+
+SaaS
+
+PaaS
+
+
+#### Explanation
 
 "PaaS" is correct. PaaS provides fully configured platforms and systems to deploy application code and data quickly into.
 
@@ -943,19 +972,18 @@ Explanation
 
 "DaaS" is incorrect. DaaS provides virtual desktops, but not systems company applications, for customers.
 
-Question 45  Security and Compliance Correct
+### Question 45  Security and Compliance
 
 Which process involves determining the security controls that are necessary for a piece of data based on its sensitivity and value?
-Classification
-Correct
-Hashing
-Incorrect
-Discovery
-Incorrect
-Labeling
-Incorrect
 
-Explanation
+Classification
+
+Discovery
+
+Labeling
+
+
+#### Explanation
 
 "Classification" is correct. Classification involves taking data and assessing its risk, value, and sensitivity to determine which security controls are necessary.
 
@@ -965,19 +993,20 @@ Explanation
 
 "Hashing" is incorrect. Hashing involves setting a fixed-length value on a data object to be used for integrity checks.
 
-Question 46  Cloud Concepts Correct
+### Question 46  Cloud Concepts
 
 Which cloud deployment model is associated with many popular services such as iCloud, OneDrive, and Instagram?
-SaaS
-Correct
-IaaS
-Incorrect
-PaaS
-Incorrect
-DaaS
-Incorrect
 
-Explanation
+SaaS
+
+IaaS
+
+PaaS
+
+DaaS
+
+
+#### Explanation
 
 "SaaS" is correct. Cloud services such as iCloud, Instagram, and OneDrive are all examples of SaaS implementations where the application is fully featured and just utilized by users.
 
@@ -987,19 +1016,20 @@ Explanation
 
 "DaaS" is incorrect. A DaaS implementation provides a virtual desktop for users to access from anywhere and with software installed and ready to use, but is not an example of systems such as iCloud, OneDrive, and Instagram.
 
-Question 47  Cloud Technology and Services Correct
+### Question 47  Cloud Technology and Services
 
 Which service of the AWS Systems Manager provides playbooks to perform tasks, both those provided by AWS and ones that can be custom-written by users?
-Automation
-Correct
-AWS AppConfig
-Incorrect
-Patch Manager
-Incorrect
-OpsCenter
-Incorrect
 
-Explanation
+Automation
+
+AWS AppConfig
+
+Patch Manager
+
+OpsCenter
+
+
+#### Explanation
 
 "Automation" is correct. Automation provides a set of predefined playbooks to do common repetitive tasks but also allows for users to create their own playbooks that are appropriate for their specific services.
 
@@ -1009,37 +1039,38 @@ Explanation
 
 "Patch Manager" is incorrect. Patch Manager allows for automatically handling patching of systems across EC2 or on-premises systems through the use of baselines.
 
-Question 48  Cloud Technology and Services Incorrect
+### Question 48  Cloud Technology and Services
 
 Which notation correctly identifies an Availability Zone within AWS?
 us-east-1-1
-Incorrect
-eu-west-1a
-Correct
-sa-east-1-a
-Incorrect
-us-west-1.a
-Incorrect
 
-Explanation
+eu-west-1a
+
+sa-east-1-a
+
+us-west-1.a
+
+
+#### Explanation
 
 "eu-west-1a" is correct. Availability Zones are notated by a lowercase letter at the end of the region name.
 
 The other answers are incorrect because they do not have the proper notations at the end of the region names.
 
-Question 49  Cloud Technology and Services Correct
+### Question 49  Cloud Technology and Services
 
 Security groups are virtual firewalls within an AWS VPC. Which of the following is true about how security groups are applied?
-Security groups only apply to traffic within the VPC.
-Incorrect
-Security groups only apply to inbound traffic.
-Incorrect
-Security groups only apply to outbound traffic.
-Incorrect
-Security groups apply to both inbound and outbound traffic.
-Correct
 
-Explanation
+Security groups only apply to traffic within the VPC.
+
+Security groups only apply to inbound traffic.
+
+Security groups only apply to outbound traffic.
+
+Security groups apply to both inbound and outbound traffic.
+
+
+#### Explanation
 
 "Security groups apply to both inbound and outbound traffic is correct. Security groups can apply to both inbound and outbound traffic and can have different rules for both.
 
@@ -1049,19 +1080,20 @@ Explanation
 
 "Security groups only apply to traffic within the VPC is incorrect. Security groups apply to traffic flowing in and out of the VPC, not just between services.
 
-Question 50  Security and Compliance Correct
+### Question 50  Security and Compliance
 
 Which protocol is the most commonly used to protect data in transit with applications and services?
-HTTPS
-Correct
-SCP
-Incorrect
-FTP
-Incorrect
-SMTP
-Incorrect
 
-Explanation
+HTTPS
+
+SCP
+
+FTP
+
+SMTP
+
+
+#### Explanation
 
 "HTTPS" is correct. HTTPS, whether through browser and client interactions with applications or through API calls, is the most commonly used protocol for securing data in transit.
 
@@ -1071,19 +1103,20 @@ Explanation
 
 "SCP" is incorrect. While SCP provides secure transfer of data files, it is not used commonly within applications and services compared to HTTPS.
 
-Question 51  Security and Compliance Correct
+### Question 51  Security and Compliance
 
 Which is the lowest support plan you would need to choose in order to get access to the AWS Trusted Advisor?
-Business
-Incorrect
-Free
-Incorrect
-Developer
-Correct
-Enterprise
-Incorrect
 
-Explanation
+Business
+
+Free
+
+Developer
+
+Enterprise
+
+
+#### Explanation
 
 "Developer" is correct. The Developer support plan provides access to the seven core Advisor checks. This will give guidance on best practices of reducing costs and how to get the most out of performance, implement and improve fault tolerance, and improve security.
 
@@ -1093,19 +1126,20 @@ Explanation
 
 "Business" is incorrect. The Business support plan does provide full access to the AWS Trusted Advisor but is a higher plan than the Developer plan.
 
-Question 52  Cloud Concepts Incorrect
+### Question 52  Cloud Concepts
 
 Which core aspect of cloud computing refers to users only paying for specific services that they use and only during the time in which they are in use?
-Multitenancy
-Incorrect
-Resource pooling
-Incorrect
-On-demand self-service
-Incorrect
-Metered service
-Correct
 
-Explanation
+Multitenancy
+
+Resource pooling
+
+On-demand self-service
+
+Metered service
+
+
+#### Explanation
 
 "Metered service" is correct. Metered service refers to only paying for services that you use and only during the time in which you are using them.
 
@@ -1115,19 +1149,20 @@ Explanation
 
 "Multitenancy" is incorrect. Multitenancy refers to many different accounts and users living within the same overall environment and resources.
 
-Question 53  Security and Compliance Incorrect
+### Question 53  Security and Compliance
 
 Which security concept is the use of hashing associated with?
-Confidentiality
-Incorrect
-Integrity
-Correct
-Privacy
-Incorrect
-Availability
-Incorrect
 
-Explanation
+Confidentiality
+
+Integrity
+
+Privacy
+
+Availability
+
+
+#### Explanation
 
 "Integrity" is correct. The main value of hashing is to quickly verify the integrity of data objects. Within a cloud environment, this can bring great value, with virtual machine images and the potentially large number of data locations within a dispersed environment. As many copies of a file are potentially stored in many different locations, hashing can be used to quickly verify that the files are of identical composure and that the integrity of them has not been compromised.
 
@@ -1137,19 +1172,20 @@ Explanation
 
 "Privacy" is incorrect. Like confidentiality, hashing will not offer any protection for the privacy of data in an object.
 
-Question 54  Cloud Technology and Services Incorrect
+### Question 54  Cloud Technology and Services
 
 Access control list (ACLs) are security layers on the VPC that control traffic at the subnet level. Which of the following statements about ACLs is incorrect?
-ACLS can have different inbound and outbound rules.
-Incorrect
-Every subnet must have an ACL assigned to it.
-Incorrect
-ACLs are composed only of ALLOW rules.
-Correct
-ACLs have numbered rules that are processed in order.
-Incorrect
 
-Explanation
+ACLS can have different inbound and outbound rules.
+
+Every subnet must have an ACL assigned to it.
+
+ACLs are composed only of ALLOW rules.
+
+ACLs have numbered rules that are processed in order.
+
+
+#### Explanation
 
 "ACLs are composed only of ALLOW rules" is correct. Unlike security groups, ACLs are composed of both ALLOW and DENY rules.
 
@@ -1159,19 +1195,20 @@ Explanation
 
 "ACLs have numbered rules that are processed in order" is incorrect. ACLs are composed of a numbered set of rules that are processed and applied in order.
 
-Question 55  Cloud Technology and Services Incorrect
+### Question 55  Cloud Technology and Services
 
 What is the main difference between AWS Shield and AWS WAF?
-AWS Shield protects storage services; AWS WAF protects compute services.
-Incorrect
-AWS Shield protects at the Layer 7 content level, while AWS WAF protects at the Layer 3 and 4 network traffic levels.
-Incorrect
-AWS Shield protects from external attacks, whereas AWS WAF protects between services within AWS.
-Incorrect
-AWS Shield protects at the Layer 3 and 4 network levels, while AWS WAF protects at the Layer 7 content level.
-Correct
 
-Explanation
+AWS Shield protects storage services; AWS WAF protects compute services.
+
+AWS Shield protects at the Layer 7 content level, while AWS WAF protects at the Layer 3 and 4 network traffic levels.
+
+AWS Shield protects from external attacks, whereas AWS WAF protects between services within AWS.
+
+AWS Shield protects at the Layer 3 and 4 network levels, while AWS WAF protects at the Layer 7 content level.
+
+
+#### Explanation
 
 "AWS Shield protects at the Layer 3 and 4 network levels, while AWS WAF protects at the Layer 7 content level" is correct. Shield operates at the Layer 3 and 4 networks levels and is used to prevent DDoS attacks, versus WAF that operates at the Layer 7 content level and can take action based on the specific contents of web traffic and requests.
 
@@ -1181,21 +1218,22 @@ Explanation
 
 "AWS Shield protects from external attacks, whereas AWS WAF protects between services within AWS" is incorrect. AWS Shield and AWS WAF protect regardless of the origin of the traffic.
 
-Question 56  Cloud Technology and Services Correct
+### Question 56  Cloud Technology and Services
 
 Select two prominent headers for drop-down menus that appear across the top of the AWS Management Console.
-Automation
-Incorrect
-Cost Explorer
-Incorrect
-Billing Dashboard
-Incorrect
-Regions
-Correct
-Services
-Correct
 
-Explanation
+Automation
+
+Cost Explorer
+
+Dashboard
+
+Regions
+
+Services
+
+
+#### Explanation
 
 "Regions" and "Services" are correct. Both Regions and Services are two of the main drop-down headers on the AWS Management Console.
 
@@ -1205,19 +1243,20 @@ Explanation
 
 "Cost Explorer" is incorrect. Cost Explorer is part of the Billing Dashboard and not a main menu item.
 
-Question 57  Security and Compliance Incorrect
+### Question 57  Security and Compliance
 
 Prior to performing data classification, which process must first be performed?
-Discovery
-Correct
-Identification
-Incorrect
-Location
-Incorrect
-Tokenization
-Incorrect
 
-Explanation
+Discovery
+
+Identification
+
+Location
+
+Tokenization
+
+
+#### Explanation
 
 "Discovery" is correct. Discovery is the process by which all data is located prior to the application of classification for security controls and policies.
 
@@ -1227,21 +1266,22 @@ Explanation
 
 "Tokenization" is incorrect. Tokenization is the practice of utilizing a random and opaque “token” value in data to replace what otherwise would be a sensitive or protected data object.
 
-Question 58  Security and Compliance Correct
+### Question 58  Security and Compliance
 
 With a Platform as a Service (PaaS) implementation, which two areas of responsibility lie with the cloud user?
-Operating system
-Incorrect
-Storage
-Incorrect
-Networking
-Incorrect
-Data
-Correct
-Application code
-Correct
 
-Explanation
+Operating system
+
+Storage
+
+Networking
+
+Data
+
+Application code
+
+
+#### Explanation
 
 "Data" and "Application code" are correct. With PaaS, both the data and application code are the responsibility of the user and fall outside of the managed services.
 
@@ -1251,19 +1291,20 @@ Explanation
 
 "Networking" is incorrect. With PaaS, networking is the responsibility of the cloud provider.
 
-Question 59  Cloud Concepts Correct
+### Question 59  Cloud Concepts
 
 Which key concept of cloud computing allows the resources to an application to be expanded to meet increased demand of the user without having to provision for maximum capacity in advance?
-Metered service
-Incorrect
-Resource pooling
-Incorrect
-Multitenancy
-Incorrect
-Elasticity
-Correct
 
-Explanation
+Metered service
+
+Resource pooling
+
+Multitenancy
+
+Elasticity
+
+
+#### Explanation
 
 "Elasticity" is correct. Elasticity allows for resources to be changed when needed to meet demand without having to fully provision ahead of time.
 
@@ -1273,17 +1314,18 @@ Explanation
 
 "Resource pooling" is incorrect. Resource pooling refers to many different systems and users sharing the same large set of resources.
 
-Question 60  Cloud Technology and Services Incorrect
+### Question 60  Cloud Technology and Services
 
 You want to restrict inbound requests to an EC2 instance, but you also want the systems to have the ability to automatically respond to those allowed requests without having to specifically allow the responses. Which AWS service would you use to accomplish this?
+
 AWS Shield
-Incorrect
+
 Security groups
-Correct
+
 Subnets
-Incorrect
+
 ACLs
-Incorrect
+
 
 Explanation
 
@@ -1295,55 +1337,58 @@ Explanation
 
 "AWS Shield" is incorrect. AWS Shield is an AWS service to prevent DDoS attacks.
 
-Question 61  Cloud Concepts Correct
+### Question 61  Cloud Concepts
 
 Within a cloud environment, which of the following is not a shared resource between tenants or customers?
-Memory
-Incorrect
-Data
-Correct
-CPU
-Incorrect
-Storage
-Incorrect
 
-Explanation
+Memory
+
+Data
+
+CPU
+
+Storage
+
+
+#### Explanation
 
 "Data" is correct. Data belongs to a cloud customer and is not a shared resource within a cloud environment.
 
 The other answers are incorrect. The core building blocks of computing, including CPU, memory, and storage, are all shared between the tenants in a cloud environment.
 
-Question 62  Cloud Concepts Correct
+### Question 62  Cloud Concepts
 
 While AWS has the capabilities to meet many different hosting needs and models, which cloud deployment model best describes AWS as a whole?
-Hybrid
-Incorrect
-Public
-Correct
-Community
-Incorrect
-Private
-Incorrect
 
-Explanation
+Hybrid
+
+Public
+
+Community
+
+Private
+
+
+#### Explanation
 
 "Public" is correct. AWS services are open to anyone who establishes an account and can provide a billing source, such as a credit card.
 
 The other answers are incorrect. While some services and regions within AWS are restricted, AWS as a whole fits a public cloud model.
 
-Question 63  Security and Compliance Correct
+### Question 63  Security and Compliance
 
 If your application utilizes or stores any type of sensitive information, you will need to comply with specific regulatory requirements. Which AWS service would provide information on AWS certifications with major governing bodies and regulations?
-AWS Artifact
-Correct
-AWS Billing Console
-Incorrect
-AWS CloudTrail
-Incorrect
-AWS Systems Manager
-Incorrect
 
-Explanation
+AWS Artifact
+
+AWS Billing Console
+
+AWS CloudTrail
+
+AWS Systems Manager
+
+
+#### Explanation
 
 "AWS Artifact" is correct. As part of the Artifact service, AWS undergoes certification reviews and audits by various governing bodies. This includes prominent certifications such as PCI DSS for financial/credit card transactions and FedRAMP for U.S. federal government systems. AWS also makes the pertinent SOC audit reports available to customers.
 
@@ -1353,36 +1398,44 @@ Explanation
 
 "AWS Billing Console" is incorrect. The AWS Billing Console does not give information on regulatory compliance or certifications.
 
-What feature does the AWS Pricing Calculator offer for users to organize services for estimates?
-Groups
-Correct
-Projects
-Incorrect
-Services
-Incorrect
-Units
-Incorrect
+### Question 64  Billing and Pricing and Support
 
-Explanation
+What feature does the AWS Pricing Calculator offer for users to organize services for estimates?
+
+Groups
+
+Projects
+
+Services
+
+Units
+
+
+#### Explanation
 
 "Groups" is correct. The AWS Pricing Calculator offers the use of groups to organize estimates.
 
 The other answers are incorrect. All are extraneous answers.
 
-## Hardware infrastructure via a hypervisor
+### Question 65  Cloud Concepts
 
-### Virtualization
+Which computing concept allows the provisioning of services within a large pool of resources and sharing the same hardware infrastructure via a hypervisor?
 
-Virtualization allows the deployment of systems and services within a shared hardware environment as the underlying hardware is segregated from the systems within it by a hypervisor.
+Virtualization
 
-### Elasticity
+Metered service
 
-Elasticity allows for resources to be changed when needed to meet demand without having to fully provision ahead of time.
+Containers
 
-### Containers
+Elasticity
 
-Containers are a type of virtual hosting for fully configured application or system deployments that are hosted within a larger system.
 
-### Metered service
+#### Explanation
 
-Metered service refers to cloud resources only incurring charges when utilized.
+"Virtualization" is correct. Virtualization allows the deployment of systems and services within a shared hardware environment as the underlying hardware is segregated from the systems within it by a hypervisor.
+
+"Elasticity" is incorrect. Elasticity allows for resources to be changed when needed to meet demand without having to fully provision ahead of time.
+
+"Containers" is incorrect. Containers are a type of virtual hosting for fully configured application or system deployments that are hosted within a larger system.
+
+"Metered service" is incorrect. Metered service refers to cloud resources only incurring charges when utilized.
